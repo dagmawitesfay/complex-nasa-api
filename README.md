@@ -4,7 +4,7 @@ A lightweight front-end app that pulls NASA facility data and shows the current 
 
 ## Demo
 
-![Allergen Check demo](image/vet.png)
+![Allergen Check demo](image/facility.png)
 
 ## Overview
 
