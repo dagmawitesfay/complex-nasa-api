@@ -2,6 +2,10 @@
 
 A lightweight front-end app that pulls NASA facility data and shows the current weather for each location using the Open-Meteo API.
 
+## Demo
+
+![Allergen Check demo](image/vet.png)
+
 ## Overview
 
 This project displays a searchable list of NASA facilities, lets users click a facility to view its live weather, and shows key weather details such as temperature, feels-like temperature, wind speed, humidity, and weather condition description.
@@ -30,22 +34,7 @@ This project displays a searchable list of NASA facilities, lets users click a f
 - `js/main.js` – data fetching, search logic, and weather rendering
 - `data/nasa-facilities.json` – NASA facility dataset
 
-## Run Locally
 
-Because this app loads local JSON data and fetches weather from an API, it is best served with a simple local web server.
-
-1. Open a terminal in the project folder
-2. Start a local server:
-
-```bash
-python3 -m http.server 8000
-```
-
-3. Visit:
-
-```text
-http://localhost:8000
-```
 
 ## How It Works
 
