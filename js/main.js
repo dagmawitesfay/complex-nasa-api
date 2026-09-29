@@ -47,21 +47,21 @@ function getFacilities(){
         createCardForFacilites(onlyFourHundred)
 
 
-          // listener for change on input for searching facilitiy based on name/center
-      inputVal.addEventListener("input",(event)=>{
+    //       // listener for change on input for searching facilitiy based on name/center
+    //   inputVal.addEventListener("input",(event)=>{
 
-         // // get the value from the input 
-      const searchInput = event.target.value.toLowerCase()
-    const filteredCenter =  onlyFourHundred.filter((facilityCenter)=>{
-      return facilityCenter.center.toLowerCase().includes(searchInput)
+    //      // // get the value from the input 
+    //   const searchInput = event.target.value.toLowerCase()
+    // const filteredCenter =  onlyFourHundred.filter((facilityCenter)=>{
+    //   return facilityCenter.center.toLowerCase().includes(searchInput)
 
      
-    })
+    // })
 
-    console.log(filteredCenter)
+    // console.log(filteredCenter)
     
 
-    })
+    // })
   
     })
 }
